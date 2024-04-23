@@ -68,7 +68,6 @@ html {
   color: white;
   background-image: url(./images/Hero\ Image.jpg);
   height: 101vh;
-  width: 101%;
   background-repeat: no-repeat;
   background-position: -80px;
 }
@@ -305,8 +304,7 @@ html {
   margin-bottom: 20px;
 }
 .testimonials .jacob {
-  width: 90%;
-  margin-left: 20px;
+  width: 100%;
   position: relative;
 }
 .testimonials .jacob #jj {
@@ -322,8 +320,7 @@ html {
   width: 100%;
 }
 .testimonials .brown {
-  width: 90%;
-  margin-left: 20px;
+  width: 100%;
   margin-bottom: 30px;
   position: relative;
 }
@@ -413,6 +410,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {
   .hero {
+    width: 100%;
     background-image: url(./images/zebra\ banner\ 2\ 1.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -438,10 +436,12 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   .hero .links {
     display: block;
     position: absolute;
-    top: 25px;
+    top: 20px;
     display: flex;
+    right: 160px;
     justify-content: space-around;
     margin-left: 200px;
+    font-size: 20px;
   }
   .hero .links a {
     margin-left: 20px;
@@ -773,25 +773,22 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     font-family: GothM;
   }
   footer .sign {
-    display: flex;
-    flex-direction: column;
+    position: relative;
+  }
+  footer input {
+    padding: 5px 8px;
+    margin-top: 30px;
+    width: 71%;
+    border: 1px solid white;
+    margin-bottom: 20px;
   }
   footer button {
-    padding: 3px 7px;
+    padding: 5px 10px;
     margin-top: 30px;
     position: absolute;
-    right: 118px;
     color: white;
     background-color: rgba(0, 0, 0, 0.774);
     border: 1px solid rgba(0, 0, 0, 0.774);
-  }
-  footer input {
-    padding: 3px 8px;
-    margin-top: 30px;
-    position: relative;
-    width: 78%;
-    border: 1px solid white;
-    margin-bottom: 20px;
   }
   footer hr {
     width: 100%;

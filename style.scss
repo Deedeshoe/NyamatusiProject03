@@ -63,7 +63,7 @@ html{transform: smooth;}
     width: 100%; 
     display: flex; flex-direction: column; align-items: center; justify-content: center;
      position: relative; color: white; 
-    background-image: url(./images/Hero\ Image.jpg); height: 101vh; width: 101%;
+    background-image: url(./images/Hero\ Image.jpg); height: 101vh; 
      background-repeat: no-repeat;
     background-position: -80px; 
     #nya{color: red; position: absolute; left: 10px; top: 10px; padding-bottom: 20px; padding-top: -20px; font-family: Papyrus;}
@@ -163,14 +163,14 @@ html{transform: smooth;}
                 border: 1px solid red;} hr{ width: 20%; border: 1.5px solid red;}  
                 #gg{width: 30%; margin-top: 30px; margin-bottom: 20px;} 
 
-    .jacob{ width: 90%; margin-left: 20px; 
+    .jacob{ width: 100%; 
         position: relative;
         
-    #jj{ display: flex; justify-content: center; align-items: flex-end;
+    #jj{ display: flex; justify-content: center; align-items: flex-end; 
         position: absolute; bottom: 0px; left: 0px; color: white; background-color: #e752174d;
         height: 100%; width: 100%;}}
 
-    .brown{ width: 90%; margin-left: 20px; margin-bottom: 30px;
+    .brown{ width: 100%; margin-bottom: 30px;
          position: relative; 
         
         #bb{ display: flex; justify-content: center; align-items: flex-end;
@@ -237,9 +237,10 @@ No media query since this is the default in Bootstrap because it is "mobile firs
  
     // Hero
 
-    .hero{ #inn{display: none;} .navv{display: none;} p{padding-top: 10px;} .ar{display: block; position: absolute; bottom: 50px;} .ar img{width: 40px;}
-    .links{display: block; position: absolute; top: 25px; display: flex; 
-        justify-content: space-around; margin-left: 200px;}
+    .hero{ width: 100%; 
+        #inn{display: none;} .navv{display: none;} p{padding-top: 10px;} .ar{display: block; position: absolute; bottom: 50px;} .ar img{width: 40px;}
+    .links{display: block; position: absolute; top: 20px; display: flex; right: 160px;
+        justify-content: space-around; margin-left: 200px;font-size: 20px;}
     .links a{margin-left: 20px; font-family: Gothamm;  text-decoration: none; color: white;}
     .ham{font-size: 15px; display: block;position: absolute; right: 30px; top: 20px;}
     .ham  img{width: 50px;}
@@ -418,13 +419,15 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     text-align: left; color: white;
     background-color: #e75317;
 
-    .sign{display: flex; flex-direction: column;}
+      .sign{position: relative;}
+
+      input{ padding: 5px 8px; margin-top: 30px; width: 71%;
+         border: 1px solid white; margin-bottom: 20px;}
     
-    button{ padding: 3px 7px; margin-top: 30px; position: absolute; right: 118px;
+    button{ padding: 5px 10px; margin-top: 30px; position: absolute; 
         color: white; background-color: rgba(0, 0, 0, 0.774); border: 1px solid rgba(0, 0, 0, 0.774);}
 
-    input{ padding: 3px 8px; margin-top: 30px; position: relative; width: 78%;
-         border: 1px solid white; margin-bottom: 20px;}
+  
 
         
 
