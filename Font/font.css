@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Gothamm;
+    src: url(./Gotham-Light.otf);
+}
+
+@font-face {
+    font-family: Gotham;
+    src: url(./Gotham-Thin.otf);
+}
+
+@font-face {
+    font-family: Papyrus;
+    src: url(./papyrus.ttf);
+}
+
+@font-face {
+    font-family: GothM;
+    src: url(./GothamMediumItalic.ttf);
+}

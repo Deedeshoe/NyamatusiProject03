@@ -1,0 +1,466 @@
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: Gothamm;
+}
+ol, ul {
+	list-style: none;
+    font-family: Gothamm;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+// Hero
+
+html{transform: smooth;}
+
+.hero{   .links{display: none;} .ar{display: none;}
+        .navv{position: absolute; top: 0px; right: 5px; color: white;}
+        .navv{ h5{font-family: Papyrus; font-size: 30px;} a{font-size: 20px;}}
+        .ham{font-size: 20px; padding-bottom: 30px; display: none;}
+    
+    width: 100%; 
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+     position: relative; color: white; 
+    background-image: url(./images/Hero\ Image.jpg); height: 101vh; width: 101%;
+     background-repeat: no-repeat;
+    background-position: -80px; 
+    #nya{color: red; position: absolute; left: 10px; top: 10px; padding-bottom: 20px; padding-top: -20px; font-family: Papyrus;}
+    #in{font-size: 50px;  font-family: gothamm;} #inn{font-size: 50px; font-family: gothamm;} 
+    p{border-bottom: 1px solid white; position: absolute; width: 100%; top: 60px;}
+
+    .getin{display: flex; flex-direction: row; 
+        .cla{margin-left: 10px;}
+    #twi{margin-top: 3px;}}
+}
+
+
+// Our Story
+
+
+.Our{ h2{font-family: Gothamm;} p{font-family: Gothamm;}
+    
+    margin-top: 20px;
+     text-align: center;
+     button{ padding: 10px 10px; background-color: #e75317; font-size: 15px;
+        border: #e75317; color: white; margin-top: 10px; margin-bottom: 20px;}
+    
+        .container{
+            .row{
+                #pix{width: 100%; margin-top: 10px;}
+
+            }
+        } 
+
+}
+
+// Activities
+
+.activities{ h2{font-family: Gothamm;}
+
+   .ourr img{ height: 70vh; 
+   }
+
+
+     text-align: center; margin-top: 20px;
+
+     .our{ display: none;}
+}
+
+
+
+// Wildlife
+
+.wildlife{
+       text-align: center;
+       h2{ padding-top: 20px; font-family: Gothamm;}
+       p{text-align: center; padding-top: 10px;font-family: Gothamm;}
+       .pics img{width: 100%; padding-bottom: 10px;}}
+
+
+// Itenaries
+
+
+.itenaries{ 
+     margin-bottom: 40px; margin-top: 20px;
+     h2{ padding-bottom: 20px; text-align: center; font-family: Gothamm;}
+
+    .info{ .orange{ position: relative;
+              
+        .heart{position: absolute; top: 0px; right: 10px; background-color: white; padding-bottom: 18px; padding-left: 5px; padding-right: 5px; padding-top: 10px;}
+               background-color: #e75317; color: white; padding: 20px;
+               h3{ font-family: Gothamm; margin-bottom: 15px; font-size: 20px; padding-top: 30px;}
+               p{font-family: Gotham; margin-bottom: 15px; font-size: 16px; line-height: 30px;}
+               ul{ list-style-type: disc; padding-left: 15px;
+                  li{font-family: Gotham; margin-bottom: 15px; font-size: 16px;}
+               } 
+            
+               .see{ padding-top: 20px;
+                display: flex; justify-content: space-between; align-items: center;
+                h4{font-family: Gothamm; margin-bottom: 15px; font-size: 15px;}
+               }
+    }
+}  
+#per{border-bottom: 1px solid white; padding-top: 5px; 
+                    border-top: 1px solid white; padding-bottom: 5px;}
+
+    .text{ height: 100%; width: 100%; 
+        position: relative;
+        .x{ position: absolute; top: 0px; background-color: rgba(0, 0, 0, 0.322); height: 100%; width: 100%; text-align: center; color: white; display: flex;
+            flex-direction: column; justify-content: end; padding-bottom: 50px; h4{font-size: 15px; font-family: GothM;}}
+
+          .text #blue{margin-bottom: 5px;}
+    }
+    
+  }
+
+//   Testimonials
+
+.testimonials{ text-align: center; h4{font-family: GothM; font-size: 15px;} h2{font-family: Gothamm; padding-bottom: 10px;}
+             .gemma{ padding: 30px 40px; margin-bottom: 20px; margin-top: 20px;
+                display: flex; flex-direction: column; justify-content: center; align-items: center;
+                border: 1px solid red;} hr{ width: 20%; border: 1.5px solid red;}  
+                #gg{width: 30%; margin-top: 30px; margin-bottom: 20px;} 
+
+    .jacob{ width: 90%; margin-left: 20px; 
+        position: relative;
+        
+    #jj{ display: flex; justify-content: center; align-items: flex-end;
+        position: absolute; bottom: 0px; left: 0px; color: white; background-color: #e752174d;
+        height: 100%; width: 100%;}}
+
+    .brown{ width: 90%; margin-left: 20px; margin-bottom: 30px;
+         position: relative; 
+        
+        #bb{ display: flex; justify-content: center; align-items: flex-end;
+            position: absolute; bottom: 0px; left:0px; color: white; background-color: #e752174d;
+            height: 100%; width: 100%;}
+
+
+    }
+}
+
+// Gallery
+
+.gallery{ h2{font-family: Gothamm; padding-bottom: 10px;}
+    text-align: center; 
+    #animals{ width: 100%; margin-bottom: 10px;}
+}
+
+// Footer
+
+footer{ h3{font-family: GothM; font-size: 20px;}
+    padding-top: 20px; 
+    text-align: center; color: white;
+    background-color: #e75317;
+    #copy{font-size: 10px;}
+    .sign{ padding-bottom: 10px;}
+
+    button{ padding: 4px 4px; margin-top: 10px; position: absolute; right: 63px;
+        color: white; background-color: rgba(0, 0, 0, 0.774); border: 1px solid rgba(0, 0, 0, 0.774);}
+
+    input{ padding: 4px 4px; margin-top: 10px; position: relative; margin-right: 50px;
+         border: 1px solid white;}
+         p{margin-bottom: 0px; line-height:30px;}
+
+         hr{ border: 1px solid white; width: 100%;}
+
+         #foots{padding-bottom: 30px;}
+}
+
+
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 568px) {  
+
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+ 
+    // Hero
+
+    .hero{ #inn{display: none;} .navv{display: none;} p{padding-top: 10px;} .ar{display: block; position: absolute; bottom: 50px;} .ar img{width: 40px;}
+    .links{display: block; position: absolute; top: 25px; display: flex; 
+        justify-content: space-around; margin-left: 200px;}
+    .links a{margin-left: 20px; font-family: Gothamm;  text-decoration: none; color: white;}
+    .ham{font-size: 15px; display: block;position: absolute; right: 30px; top: 20px;}
+    .ham  img{width: 50px;}
+
+       background-image: url(./images/zebra\ banner\ 2\ 1.png); background-size: cover;
+        background-repeat: no-repeat; background-position: center;
+
+        #nya{margin-bottom: 40px; margin-left: 30px; font-family: Papyrus;}
+
+      #in{ font-size: 120px; margin-top: -150px;}
+
+      .getin{position: absolute; right: 50px; margin-top: 20px; font-size: 20px; display: flex; flex-direction: column; justify-content: space-around;
+    .cla{margin-bottom: 10px;}} 
+    .getin img{width: 20px;}
+
+   }
+
+ //  Our Story
+
+ .Our{ display: flex; flex-direction: column; justify-content: center; align-items: center;
+    
+       .container{ 
+           .row{
+               #pix{width: 80%; margin-top: 10px;}}
+
+          .vv{ text-align: left; font-family: Gothamm; margin-top: 30px;
+        }
+
+        .para{margin-top: 80px; align-self: center; justify-self: center; line-height: 30px; font-family: Gothamm;}
+        
+        button{ padding: 10px 10px;}
+
+        #ele{align-self: center;} #ell{align-self: center;}
+        
+       } 
+
+ }
+
+ // Activities
+
+  .activities{  height: 100vh; display: flex; align-items: center;
+    .ourr{display: none;} 
+    .our{display: flex; flex-direction: row; column-gap: 1em;
+        justify-content: space-around;}
+
+        .container{ .ouur{text-align: left; margin-bottom: 70px; font-family: Gothamm; margin-left: 10px;}
+
+            .one{position: relative;display: flex;justify-content: center;align-items: center; margin: 0px 10px;}
+            .text{position: absolute; bottom: 0px; color: white; text-align: center;
+           }
+        }
+
+        .one{ 
+            transition: 2s; }
+   
+            .one:hover{ transform:scale(1.3);
+                        p{display: contents;}}
+
+            p{display: none; font-size: 15px;}
+
+           
+   
+
+  }
+
+ // Wildlife
+  
+.wildlife{ position: relative;
+   padding-bottom: 80px;
+
+   h2{text-align: left; padding-left: 90px; font-family: Gothamm;} p{padding-top: 80px;text-align: left; font-family: Gothamm;}
+  
+     .container{
+        
+         #girrafe{width: 19%;height: 20%;margin-right: 15px;padding-top: 70px;}
+         #zebra{width: 19%;height: 20%;margin-right: 15px;padding-top: 130px;}
+         #lepard{width: 19%;height: 20%;margin-right: 15px;padding-top: 20px;}
+         .pics{
+             display: flex;
+         }
+         .two{
+               display: flex;
+               flex-direction: column;
+               margin-top: -16%;
+         }
+
+         #row{margin-top: 5px;}
+        
+         .container-fluid{ 
+             width: 50%;
+             margin-left: -10px;
+         }
+         #tiger{width: 90%;height:90%;}
+         .tiger{margin-bottom: 50px;}
+     } 
+ }
+
+
+ // Itenaries
+
+ .itenaries{ 
+        h2{text-align: left; font-family: Gothamm;}
+
+    .info{ display: flex; img{width: 50%;}
+
+        .orange{ position: relative; width: 50%; font-family: Gothamm;
+            .heart{ 
+                position: absolute; top: 0px; right: 10px;
+                background-color: white; padding-left: 5px; padding-bottom: 10px; padding-top: 5px;}
+
+                #hear{width: 20px;}
+                #per{font-size: 18px; font-family: GothM ;}
+                ul{padding-left: 15px;}
+            
+              .see{
+                 display: flex; justify-content: space-between; align-items: center;
+                 h4{margin-bottom: 15px; font-size: 15px;}
+               }
+
+               #arrow{width: 25px;}
+            }
+     }
+
+         .text{ h4{ font-family:  GothM;}
+                p{ font-family: Gothamm;}}
+         #ite{ height: 100%;}
+         .text img{height: 100%}
+
+                   }
+    
+ //  Testimonials
+
+ .testimonials{ padding-right: 40px; padding-top: 60px; padding-bottom: 60px;
+    
+    h4{font-family: GothM; font-size: 15px;}
+     text-align: left; h2{padding-left: 20px; font-family: Gothamm;}
+     display: flex; flex-direction: column;
+     
+    
+  .gemma{ padding: 30px 100px; margin-bottom: 30px; margin-left: 40px; text-align: center;
+     display: flex; flex-direction: column; justify-content: center; align-items: center;
+     border: 1px solid red;} p{font-family: Gothamm;}
+     hr{ width: 30%; border: 1.5px solid red;}  
+     #gg{width: 50%; } 
+
+     #pikks{width: 100%; height: 100%;}
+
+   .jacob{  width: 100%; height: 90%; margin-top: 20px;
+    position: relative;
+
+    #jj{ display: flex; justify-content: center; align-items: flex-end;
+    position: absolute; bottom: 0px; left: 0px; color: white; background-color: rgba(201, 106, 106, 0.664);
+     height: 100%; width: 100%;}}
+
+  .brown{ width: 100%; height: 90%; margin-top: 20px;
+    margin-bottom: 30px; position: relative; 
+
+   #bb{ display: flex; justify-content: center; align-items: flex-end;
+   position: absolute; bottom: 0px; left:0px; color: white; background-color: rgba(201, 106, 106, 0.664);
+   height: 100%; width: 100%;}}
+   
+   }
+
+  // Gallery
+  
+  .gallery{ h2{padding-bottom: 20px; font-family: Gothamm;}
+    text-align: left; 
+
+     #gall img{width: 100%; height: 90%; } 
+ }
+
+  //  Footer
+
+  footer{ h3{font-size: 20px; font-family: GothM;}
+    padding-top: 20px; 
+    text-align: left; color: white;
+    background-color: #e75317;
+
+    .sign{display: flex; flex-direction: column;}
+    
+    button{ padding: 3px 7px; margin-top: 30px; position: absolute; right: 118px;
+        color: white; background-color: rgba(0, 0, 0, 0.774); border: 1px solid rgba(0, 0, 0, 0.774);}
+
+    input{ padding: 3px 8px; margin-top: 30px; position: relative; width: 78%;
+         border: 1px solid white; margin-bottom: 20px;}
+
+        
+
+         hr{ width: 100%;} #copy{ text-align: center;}
+        
+ }
+
+}
+
+
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    
+}
+
+
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+
+/* Set width to make card deck cards 100% width */
+@media (max-width: 950px) {    
+    .our{ text-align: left;}  .our h2{ padding-bottom: 50px; text-align: left; font-family: Gothamm; padding-left: -50px;} 
+    .our p{ font-size: 15px;} .our button{ padding: 10px 13px;}
+    .phant{ align-self: center;} .our .two{width: 20%; align-self: center;} .our .oon{width: 30%;} .our .ou{margin-left: 35px; align-self: center;}
+    .our{ margin-bottom: 30px; margin-top: 30px;}
+
+
+}
